@@ -9,5 +9,6 @@ public class Main {
         Thread t2 = new Thread(new CompetingThread(lock2, lock1, "thread2"));
         t1.start();
         t2.start();
+
     }
 }
